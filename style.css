@@ -723,7 +723,7 @@ footer {
 .col-left-footer {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
 }
 .flex-left-footer-top {
   display: flex;
@@ -756,6 +756,8 @@ footer {
   display: flex;
   list-style: none;
   color: var(--tw-gray);
+  margin: 0;
+  padding: 0;
 }
 .flex-footer-right {
   display: flex;
