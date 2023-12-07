@@ -251,6 +251,7 @@ section {
 }
 .invite-card {
   display: flex;
+  border-radius: 15px;
   flex-direction: column;
   gap: 17px;
   padding: 24px 40px;
