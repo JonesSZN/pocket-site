@@ -47,6 +47,15 @@ ul {
   display: flex;
   gap: 17px;
 }
+
+@media screen and (max-width: 1120px) {
+  nav {
+    width: 90%;
+  }
+  ul {
+    display: none;
+  }
+}
 /* text-styles */
 
 .right1 {
@@ -204,7 +213,10 @@ section {
     flex-direction: column;
   }
   .outer-circle {
-    display: none;
+    position: absolute;
+    left: -290px;
+    display: flex;
+    justify-content: center;
   }
   .invest-bottom {
     flex-direction: column;
